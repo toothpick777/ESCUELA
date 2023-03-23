@@ -1,0 +1,70 @@
+/* estilos de manera general */
+
+* {
+	margin: 10px;
+	padding: 0px;
+	text-decoration: none;
+	font-family: 'Open Sans',Verdana;
+}
+
+:root {
+	--gray-light: #4E6E81;
+	--white-sand: #F9DBBB;
+	--red: #FF0303;
+	--gray-dark: #2E3840;
+	/* paleta de colores: https://colorhunt.co/palette/4e6e81f9dbbbff03032e3840 */
+}
+
+body {
+	background: rgba(249, 219, 187, 0.25);
+}
+
+.estructurar {
+	float: none;
+	clear: both;
+}
+
+.contenedor {
+	width: 90%;
+	margin: 0px auto;
+
+}
+
+/* seccion del encabezado */
+
+#encabezado {
+	background: rgba(255, 3, 3, 0.90);
+	height: 160px;
+    width: 100%;
+	line-height: 120p;
+}
+
+#logo {
+	width: 50%;
+	float: left;
+}
+
+#logo h1 {
+	font-size: 38px;
+	font-weight: bold;
+	color: white;
+	margin: 0px auto;
+}
+
+#menu {
+	width: 90%;
+	float: left;
+	display: block;
+}
+
+#menu ul li {
+	list-style: none;
+	float: left;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+#menu ul li a {
+	color: white;
+}
+
