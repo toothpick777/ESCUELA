@@ -15,6 +15,10 @@
 	/* paleta de colores: https://colorhunt.co/palette/4e6e81f9dbbbff03032e3840 */
 }
 
+html {
+	font-size: 62.5%;
+}
+
 body {
 	background: rgba(249, 219, 187, 0.25);
 }
@@ -38,23 +42,22 @@ body {
     margin-top: -20px;
 	margin-left: -20px;
 	margin-right: -20px;
-	line-height: 120p;
+	line-height: 32px;
 }
 
 #logo {
-	width: 50%;
+	width: 40%;
 	float: left;
 }
 
 #logo h1 {
-	font-size: 38px;
+	font-size: 4.2rem;
 	font-weight: bold;
 	color: white;
-	text-align: center;
 }
 
 #menu {
-	width: 90%;
+	width: 48%;
 	float: left;
 	display: block;
 }
@@ -68,6 +71,7 @@ body {
 
 #menu ul li a {
 	color: white;
+	font-size: 1.6rem;
 }
 
 /* estilo slider */
@@ -81,7 +85,7 @@ body {
 
 #slider h2 {
 	color:white;
-	font-size: 45px;
+	font-size: 4.8rem;
 	text-align: center;
 	line-height: 250px;
 	text-shadow: 5px 5px 10px black;
@@ -116,12 +120,14 @@ body {
 }
 
 .producto figcaption{
+	font-size: 1.6rem;
 	text-align: center;
 	display: block;
 }
 
 .producto h3{
 	margin-bottom: 4px;
+	font-size: 2rem;
 }
 
 .producto img{
@@ -202,6 +208,7 @@ footer ul {
 	#menu ul {
 		display: flex;
 		justify-content: center;
+		width: 202%;
 	}
 
 	.contenedor__productos {
