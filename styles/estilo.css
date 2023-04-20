@@ -127,3 +127,62 @@ body {
 	margin-bottom: 12px;
 	justify-self: center;
 }
+
+/* seccion de videos */
+
+.video {
+    width: 28%;
+	float: left;
+	margin: 1.6rem 2.9rem 3.2rem;
+}
+
+.video iframe {
+	width: 96%;
+	height: 200px;
+}
+
+/* fin de videos */
+
+/* inicio de pie de pagina */
+footer {
+	background-color: var(--gray-light);
+	text-align: center;
+	padding-top: 0px;
+    padding-bottom: 5px;
+    margin-bottom: -20px;
+	margin-right: -20px;
+    margin-left: -20px;
+}
+
+footer div.contenedor + h2 {
+	box-shadow: 0 0 20px 6px white;
+} 
+
+.contenedor p {
+	font-size: 1.6rem;
+}
+
+footer ul li a img {
+	border-radius: 50%;
+	width: 5rem;
+	height: 5rem;
+}
+
+footer ul li {
+	list-style: none;
+	transition: 1s;
+}
+
+footer ul li:hover {
+	opacity: 0.84;
+	transform: scale(1.5, 1.5);
+}
+
+footer ul {
+	display: flex;
+	justify-content: center;
+	margin-top: 8px;
+}
+
+/* inicio de pie de pagina */
+
