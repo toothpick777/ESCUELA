@@ -80,7 +80,7 @@ body {
 
 /* estilo slider */
 
-#slider {
+/* #slider {
 	height: 260px;
 	width: 100%px;
 	background: var(--white-sand);
@@ -93,6 +93,40 @@ body {
 	text-align: center;
 	line-height: 250px;
 	text-shadow: 5px 5px 10px black;
+} */
+
+.slide-frame {
+	width: 128.9rem;
+	height: auto;
+	margin: 48px auto 4px;
+	overflow: hidden;
+	animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slide-frame ul {
+	display: flex;
+	width: 300%;
+}
+
+.slide-frame ul li {
+	list-style: none;
+	width: 100%;
+}
+
+.slide-frame picture {
+	width: 100%;
+}
+
+@keyframes slide {
+	0%{margin-left: 0%;}
+	20%{margin-left: 0%;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	75%{margin-left: -300%;}
+
 }
 
 /* seccion de servicios */
