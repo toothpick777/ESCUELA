@@ -14,10 +14,11 @@
 			</div><!--fin del logo-->
 			<div id="menu"><!--comienzo de menu-->
 				<ul>
-					<li><a href="#">nuevo</a></li>
-					<li><a href="#">productos</a></li>
-					<li><a href="#">contacto</a></li>
-					<li><a href="#">acerca de</a></li>
+					<li><a href="/index.html">menu</a></li>
+					<li><a href="/nuevo.html">nuevo</a></li>
+					<li><a href="/productos.html">productos</a></li>
+					<li><a href="/contacto.html">contacto</a></li>
+					<li><a href="/acerca de.html">acerca de</a></li>
 				</ul>
 				
 				<figure class="menu__mobile">
@@ -29,36 +30,38 @@
 	<div  class="estructurar"></div>
 	
 	<!--inicio la section de slider-->
-	<div id="slider"><!--inicio del slider-->
-		<!--inicio de contenedor-->
-		<div class="contenedor">
-			<h2>lo nuevo</h2>
+	
+	<div class="slider-container">
+		<div class="slider">
+		  <div class="slider-item">
+			<picture>
+			  <source media="(max-width: 630px)" srcset="img/mobile-image-1.jpg">
+			  <source media="(max-width: 780px)" srcset="img/tablet-image-1.jpg">
+			  <img src="/assets/primer slide_11zon.webp" alt="Imagen 1">
+			</picture>
+		  </div>
+		  <div class="slider-item">
+			<picture>
+			  <source media="(max-width: 630px)" srcset="img/mobile-image-2.jpg">
+			  <source media="(max-width: 780px)" srcset="img/tablet-image-2.jpg">
+			  <img src="/assets/segundo slider_11zon.webp" alt="Imagen 2">
+			</picture>
+		  </div>
+		  <div class="slider-item">
+			<picture>
+			  <source media="(max-width: 630px)" srcset="img/mobile-image-3.jpg">
+			  <source media="(max-width: 780px)" srcset="img/tablet-image-3.jpg">
+			  <img src="/assets/tercer slide_11zon.webp" alt="Imagen 3">
+			</picture>
+		  </div>
 		</div>
-		<!--fin de contenedor-->
-	</div>
-
-	<div class="slide-frame">
-		<ul>
-			<li>
-				<picture>
-					<sorce></sorce>
-					<img src="/assets/primer slide_11zon.webp" alt="descuento del 45%">
-				</picture>
-			</li>
-			<li>
-				<picture>
-					<sorce></sorce>
-					<img src="/assets/segundo slider_11zon.webp" alt="viernes al 2 por 1">
-				</picture>
-			</li>
-			<li>
-				<picture>
-					<sorce></sorce>
-					<img src="/assets/tercer slide_11zon.webp" alt="tu mejor opcion">
-				</picture>
-			</li>
-		</ul>
-	</div>
+		<div class="slider-arrows">
+		  <div class="slider-arrow slider-arrow-left">&larr;</div>
+		  <div class="slider-arrow slider-arrow-right">&rarr;</div>
+		</div>
+	  </div>
+	  
+	
 	<!--fin del slider-->
 	<div  class="estructurar"></div>
 	<!--inician los productos-->
@@ -162,5 +165,7 @@
 	</footer>
 	<!--termina seccion del pie de página-->
 	<!--widht292 height196 poner las imagenes a este tamaño-->
+
+	<script src="/main.js"></script>
 </body>
 </html>
